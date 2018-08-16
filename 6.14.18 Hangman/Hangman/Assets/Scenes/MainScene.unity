@@ -140,6 +140,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7910fc0300abe5e47ad727a81de98791, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UI: {fileID: 1278983259}
+  CharacterAtlas: []
 --- !u!224 &134888955
 RectTransform:
   m_ObjectHideFlags: 0
@@ -307,7 +309,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 421244360}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -337,7 +339,7 @@ AudioListener:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 785091429}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &785091431
 Camera:
   m_ObjectHideFlags: 0
@@ -401,7 +403,7 @@ GameObject:
   - component: {fileID: 1278983260}
   - component: {fileID: 1278983262}
   - component: {fileID: 1278983261}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
